@@ -4,6 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Home | Your Name</title>
+  <meta name="description" content="Welcome to Keifer Sormela's personal website exploring web development and Information Systems projects.">
+  <link rel="canonical" href="https://keifersormela.github.io/about-me/index.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Home | Keifer Sormela">
+  <meta property="og:description" content="Welcome to Keifer Sormela's personal website exploring web development and Information Systems projects.">
+  <meta property="og:image" content="https://keifersormela.github.io/about-me/assets/hero-md.jpg">
+  <meta property="og:url" content="https://keifersormela.github.io/about-me/index.html">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
   <header>
@@ -22,6 +34,17 @@
       <p>Short intro paragraph here.</p>
     </article>
   </main>
+  <picture>
+  <source type="image/webp"
+          srcset="assets/hero-sm.webp.jpg 400w,
+                  assets/hero-md.webp.jpg 800w,
+                  assets/hero-lg.webp.jpg 1600w"
+          sizes="(max-width: 600px) 90vw, 800px">
+  <img src="assets/hero-md.jpg"
+       alt="A scenic landscape view"
+       width="800" height="450"
+       loading="lazy">
+</picture>
   <footer>
     <p>&copy; 2026 Your Name</p>
   </footer>
